@@ -1,0 +1,11 @@
+.container {
+    display: flex; 
+    align-items: stretch; 
+    font-family: sans-serif;
+}
+.coluna-direita {
+    border-left: 2px solid #ccc; 
+}
+.coluna-esquerda, .coluna-direita {
+    padding: 20px; 
+}
