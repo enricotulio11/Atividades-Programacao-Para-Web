@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    font-size: 16px;
+}
+#incrementBtn { background-color: #4CAF50; color: white; }
+#decrementBtn { background-color: #f44336; color: white; }
+#resetBtn { background-color: #555; color: white; }
+#addItemBtn { background-color: #2196F3; color: white; }
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: calc(100% - 22px);
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+.section {
+    margin-bottom: 25px;
+}
